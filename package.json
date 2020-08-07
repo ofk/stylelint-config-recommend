@@ -7,9 +7,9 @@
   "main": "index.js",
   "scripts": {
     "format": "run-s format:*",
-    "format:files": "prettier --write \"**/*.{json,md}\"",
+    "format:files": "prettier --write \"**/*.{css,js,json,md,scss}\"",
     "format:package-json": "prettier-package-json --write",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "stylelint \"test/**/*.{css,scss}\""
   },
   "dependencies": {
     "stylelint-config-prettier": "8.0.2",
@@ -29,7 +29,7 @@
     }
   },
   "lint-staged": {
-    "*.{json,md}": "prettier --write",
+    "*.{css,js,json,md,scss}": "prettier --write",
     "package.json": [
       "prettier --write",
       "npm run format:package-json"
