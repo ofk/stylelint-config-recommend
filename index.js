@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['stylelint-prettier/recommended'],
+  extends: ['./standard.js', './prettier.js'].map(require.resolve),
 };
