@@ -2,7 +2,15 @@
   "name": "@ofk/stylelint-config-recommend",
   "description": "stylelint config with scss support",
   "license": "MIT",
-  "author": "ofk <ofkjpn+npm@gmail.com> (https://github.com/ofk/)",
+  "author": "ofk <ofkjpnnpm@gmail.com> (https://github.com/ofk/)",
+  "homepage": "https://github.com/ofk/stylelint-config-recommend#readme",
+  "repository": {
+    "type": "git",
+    "url": "gitssh://git@github.com:ofk/stylelint-config-recommend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ofk/stylelint-config-recommend/issues"
+  },
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
