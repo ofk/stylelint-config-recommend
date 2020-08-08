@@ -15,9 +15,12 @@
   "main": "index.js",
   "scripts": {
     "format": "run-s format:*",
-    "format:files": "prettier --write \"**/*.{css,js,json,md,scss}\"",
+    "format:files": "npm run lint:files -- --write",
     "format:package-json": "prettier-package-json --write",
-    "test": "stylelint \"test/**/*.{css,scss}\""
+    "lint": "run-s lint:*",
+    "lint:files": "prettier -l .",
+    "lint:package-json": "prettier-package-json -l",
+    "test": "stylelint --aei \"test/**/*.{css,scss}\""
   },
   "dependencies": {
     "stylelint-config-prettier": "8.0.2",
