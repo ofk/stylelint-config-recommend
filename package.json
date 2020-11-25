@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/ofk/stylelint-config-recommend/issues"
   },
-  "version": "2.0.0",
+  "version": "2.1.0",
   "main": "index.js",
   "scripts": {
     "format": "run-s format:*",
