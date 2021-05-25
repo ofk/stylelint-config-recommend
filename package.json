@@ -20,6 +20,7 @@
     "lint": "run-s lint:*",
     "lint:files": "prettier -l .",
     "lint:package-json": "prettier-package-json -l",
+    "prepare": "husky install",
     "test": "stylelint --aei \"test/**/*.{css,scss}\""
   },
   "dependencies": {
