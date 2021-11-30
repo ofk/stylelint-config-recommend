@@ -24,19 +24,19 @@
     "test": "stylelint --aei \"test/**/*.{css,scss}\""
   },
   "dependencies": {
-    "stylelint-config-prettier": "8.0.2",
-    "stylelint-config-recess-order": "2.4.0",
-    "stylelint-config-recommended-scss": "4.2.0",
-    "stylelint-config-standard": "22.0.0",
-    "stylelint-scss": "3.19.0"
+    "stylelint-config-prettier": "9.0.3",
+    "stylelint-config-recess-order": "3.0.0",
+    "stylelint-config-recommended-scss": "5.0.2",
+    "stylelint-config-standard": "24.0.0",
+    "stylelint-scss": "4.0.0"
   },
   "devDependencies": {
-    "husky": "6.0.0",
-    "lint-staged": "11.0.0",
+    "husky": "7.0.4",
+    "lint-staged": "12.1.2",
     "npm-run-all": "4.1.5",
-    "prettier": "2.3.0",
+    "prettier": "2.5.0",
     "prettier-package-json": "2.6.0",
-    "stylelint": "13.13.1"
+    "stylelint": "14.1.0"
   },
   "lint-staged": {
     "*.{css,js,json,md,scss}": "prettier --write",
