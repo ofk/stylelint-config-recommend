@@ -20,7 +20,7 @@
     "test": "stylelint --aei \"test/**/*.{css,scss}\""
   },
   "dependencies": {
-    "stylelint-config-recess-order": "4.4.0",
+    "stylelint-config-clean-order": "^5.2.0",
     "stylelint-config-recommended-scss": "14.0.0",
     "stylelint-config-standard": "35.0.0",
     "stylelint-scss": "6.0.0"

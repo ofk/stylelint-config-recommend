@@ -11,8 +11,8 @@
 .selector-1,
 .selector-2,
 .selector-3[type='text'] {
-  box-sizing: border-box;
   display: block;
+  box-sizing: border-box;
   color: var(--brand-red);
   background: linear-gradient(#fff, rgba(0, 0, 0, 80%));
 }
@@ -57,6 +57,7 @@
     height: 10rem;
     margin: 10px;
     margin-bottom: 5px;
+
     background-image: repeating-linear-gradient(
       -45deg,
       transparent,
@@ -67,6 +68,7 @@
       0 1px 1px #000,
       0 1px 0 #fff,
       2px 2px 1px 1px #ccc inset;
+
     animation: 3s none fade-in;
   }
 
