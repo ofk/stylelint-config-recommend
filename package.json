@@ -20,18 +20,18 @@
     "test": "stylelint --aei \"test/**/*.{css,scss}\""
   },
   "dependencies": {
-    "stylelint-config-recess-order": "4.3.0",
-    "stylelint-config-recommended-scss": "12.0.0",
-    "stylelint-config-standard": "34.0.0",
-    "stylelint-scss": "5.0.1"
+    "stylelint-config-recess-order": "4.4.0",
+    "stylelint-config-recommended-scss": "14.0.0",
+    "stylelint-config-standard": "35.0.0",
+    "stylelint-scss": "6.0.0"
   },
   "devDependencies": {
     "husky": "8.0.3",
-    "lint-staged": "13.2.3",
+    "lint-staged": "15.2.0",
     "npm-run-all": "4.1.5",
-    "prettier": "3.0.0",
+    "prettier": "3.1.1",
     "prettier-package-json": "2.8.0",
-    "stylelint": "15.10.2"
+    "stylelint": "16.0.2"
   },
   "lint-staged": {
     "*.{css,js,json,md,scss}": "prettier --write",
