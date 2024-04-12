@@ -4,7 +4,10 @@
   "description": "stylelint config with scss support",
   "license": "MIT",
   "author": "ofk <ofkjpn+npm@gmail.com> (https://github.com/ofk/)",
-  "repository": "ofk/stylelint-config-recommend",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ofk/stylelint-config-recommend.git"
+  },
   "main": "index.js",
   "files": [
     "*.js"
