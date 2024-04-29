@@ -8,9 +8,9 @@
     "type": "git",
     "url": "git+https://github.com/ofk/stylelint-config-recommend.git"
   },
-  "main": "index.js",
+  "main": "index.mjs",
   "files": [
-    "*.js"
+    "*.mjs"
   ],
   "scripts": {
     "lint": "run-s -c lint:*",
